@@ -39,11 +39,6 @@ Fall-Detection-YOLOv8/
 
 ## 使用说明
 
-### 环境配置
-
-```bash
-pip install -r requirements.txt
-
 ## 训练
 # YOLOv8 训练
 python train.py
