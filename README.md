@@ -4,7 +4,6 @@
 
 ## 技术栈
 
-```text
 | 类别 | 技术 |
 | :--- | :--- |
 | 深度学习框架 | PyTorch |
@@ -12,7 +11,7 @@
 | GUI 界面 | PyQt5（detect_gui.py） |
 | 数据处理 | OpenCV、NumPy |
 | 编程语言 | Python |
-```
+
 
 ## 功能
 
