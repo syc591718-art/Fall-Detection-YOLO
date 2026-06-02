@@ -1,0 +1,17 @@
+# YOLOv8跌倒检测数据集
+# 自动生成于: data\dataset
+# 随机种子: 42 (确保分割一致性)
+
+path: F:\pycharm\learn\Fall-Detection-YOLOv8\data\dataset
+train: images/train
+val: images/val
+test: images/test
+
+# 类别数量
+nc: 3
+
+# 类别名称
+names:
+  0: up
+  1: bending
+  2: down

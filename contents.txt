@@ -1,0 +1,43 @@
+Fall-Detection-YOLOv8/
+├── .venv/                          # Python虚拟环境
+│
+├── data/                           # 数据目录
+│   ├── dataset/                    # YOLO格式数据集
+│   │   ├── images/                 # 图片文件
+│   │   │   ├── train/              # 训练集图片
+│   │   │   ├── val/                # 验证集图片
+│   │   │   └── test/               # 测试集图片
+│   │   ├── labels/                  # 标注文件
+│   │   │   ├── train/              # 训练集标签（txt格式）
+│   │   │   ├── val/                 # 验证集标签
+│   │   │   ├── test/                # 测试集标签
+│   │   │   ├── train.cache          # 训练集缓存文件
+│   │   │   ├── val.cache            # 验证集缓存文件
+│   │   └── dataset.yaml              # 数据集配置文件
+│   │
+│   ├── raw/                          # 原始数据（VOC格式）
+│   │   ├── *.jpg                      # 原始图片
+│   │   └── *.xml                      # VOC格式标注
+│   │
+├── runs/                              # 运行结果目录
+│   ├── detect/                        # YOLOv8检测结果
+│   └── detect_v26/                    # YOLO26检测结果
+│
+├── utils/                              # 工具函数
+│   ├── __init__.py
+│   ├── data_utils.py                    # 数据处理工具
+│   └── visualize.py                      # 可视化工具
+│
+├──contents.txt                          # 目录
+├──convert_current_structure.py          # 数据转换脚本（XML→YOLO）
+├── detect.py                            # 命令行检测脚本
+├── detect_gui.py                         # GUI拖放检测脚本
+├── README.md                             # 项目说明文档
+├── requirements.txt                      # 依赖包列表
+├── train.py                              # YOLOv8训练脚本
+├── train_v26.py                          # YOLO26训练脚本
+├── yolov8n.pt                            # YOLOv8预训练模型
+├── yolo26n.pt                            # YOLO26预训练模型
+│
+└── External Libraries/                   # IDE外部库
+└── Scratches and Consoles/                # IDE临时文件

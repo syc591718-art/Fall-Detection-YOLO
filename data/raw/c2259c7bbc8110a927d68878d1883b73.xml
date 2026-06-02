@@ -1,0 +1,25 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>c2259c7bbc8110a927d68878d1883b73.jpg</filename>
+	<path>/my-project-name/c2259c7bbc8110a927d68878d1883b73.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>bending</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>208</xmin>
+			<ymin>91</ymin>
+			<xmax>688</xmax>
+			<ymax>1087</ymax>
+		</bndbox>
+	</object>
+</annotation>
